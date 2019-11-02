@@ -6,6 +6,7 @@ INJECTED from /home/carlos/Desktop/Projetos/Pokedex/android/app/src/main/Android
 INJECTED from /home/carlos/Desktop/Projetos/Pokedex/android/app/src/main/AndroidManifest.xml:1:1-26:12
 MERGED from /home/carlos/Desktop/Projetos/Pokedex/android/app/src/main/AndroidManifest.xml:1:1-26:12
 MERGED from [:react-native-gesture-handler] /home/carlos/Desktop/Projetos/Pokedex/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-vector-icons] /home/carlos/Desktop/Projetos/Pokedex/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native:0.61.3] /home/carlos/.gradle/caches/transforms-2/files-2.1/fc618353ae01a511ae10d9a5fc2e37c2/AndroidManifest.xml:2:1-13:12
 MERGED from [org.webkit:android-jsc:r245459] /home/carlos/.gradle/caches/transforms-2/files-2.1/4bd989ed76b3bdfdceffbd1eacd03e6d/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.0.2] /home/carlos/.gradle/caches/transforms-2/files-2.1/37f19ddb2c2b3650bd4f7e909bccb0f0/AndroidManifest.xml:17:1-22:12
@@ -135,6 +136,8 @@ INJECTED from /home/carlos/Desktop/Projetos/Pokedex/android/app/src/main/Android
 INJECTED from /home/carlos/Desktop/Projetos/Pokedex/android/app/src/main/AndroidManifest.xml
 MERGED from [:react-native-gesture-handler] /home/carlos/Desktop/Projetos/Pokedex/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-gesture-handler] /home/carlos/Desktop/Projetos/Pokedex/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /home/carlos/Desktop/Projetos/Pokedex/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /home/carlos/Desktop/Projetos/Pokedex/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.61.3] /home/carlos/.gradle/caches/transforms-2/files-2.1/fc618353ae01a511ae10d9a5fc2e37c2/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.61.3] /home/carlos/.gradle/caches/transforms-2/files-2.1/fc618353ae01a511ae10d9a5fc2e37c2/AndroidManifest.xml:7:5-9:41
 MERGED from [org.webkit:android-jsc:r245459] /home/carlos/.gradle/caches/transforms-2/files-2.1/4bd989ed76b3bdfdceffbd1eacd03e6d/AndroidManifest.xml:7:5-9:41

@@ -1,7 +1,7 @@
 import React from 'react'
 
 /* ------------- Styles ------------- */
-import { Container, Text, Button } from './style'
+import { Container, Text, Button } from './styles'
 
 /* ------------- Helpers ------------- */
 import { pokeColor } from '../../helpers/Colors'

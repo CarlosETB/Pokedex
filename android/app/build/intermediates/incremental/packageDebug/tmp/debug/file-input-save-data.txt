@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Nov 02 13:33:58 BRT 2019
+#Sat Nov 02 18:29:14 BRT 2019
 56.path=lib/x86_64/libnative-imagetranscoder.so
 5.base=/home/carlos/Desktop/Projetos/Pokedex/android/app/build/intermediates/transforms/mergeJniLibs/debug/0
 42.base=/home/carlos/Desktop/Projetos/Pokedex/android/app/build/intermediates/transforms/mergeJniLibs/debug/0
