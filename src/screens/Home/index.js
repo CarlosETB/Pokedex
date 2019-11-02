@@ -1,8 +1,7 @@
-/* ------------- Native Component ------------- */
-import React from 'react'
-import { Text } from 'react-native'
+import React from 'react';
 
-import { Container } from './styles'
+/* ------------- Styles ------------- */
+import { Container, ScrollView, View, Button, Text } from './styles'
 
 import Search from '../../components/Search'
 
@@ -10,7 +9,14 @@ export default function HomeScreen ({ navigation }) {
   
   return (
     <Container>
-      <Search />     
+      <Search />
+      <ScrollView showsVerticalScrollIndicator={false} >
+   
+
+        <Button>
+          <Text>Carregar mais...</Text>
+        </Button>
+      </ScrollView>
     </Container>
   )
 }
