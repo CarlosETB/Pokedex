@@ -30,11 +30,11 @@ export const Button = styled.TouchableOpacity`
     border-radius: 10px;
     align-self: flex-end;
     justify-content: center;
-    background-color: ${pokeColor.blue};
+    border: 1px solid ${pokeColor.blue};
 `
 
 export const Text = styled.Text`
     font-size: 20px;
     text-align: center;
-    color: ${pokeColor.white};
+    color: ${pokeColor.blue};
 `

@@ -10,7 +10,7 @@ import Box from './Box'
 import Search from '../../components/Search'
 
 /* ------------- Helpers ------------- */
-import { Bulbasaur, Charmander, Pikachu, Squirtle } from '../../helpers/Images'
+import { Bulbasaur,  Charmander, Squirtle, Pikachu } from '../../helpers/Images'
 import { pokeColor } from '../../helpers/Colors'
 
 export default function HomeScreen ({ navigation }) {
@@ -22,18 +22,22 @@ export default function HomeScreen ({ navigation }) {
         <Box 
           type='Grass'
           number='001' 
-          source={Bulbasaur}/> 
+          name='Bulbasaur'
+          source={Bulbasaur} /> 
         <Box 
           type='Fire'
           number='004'
-          source={Charmander}  />
+          name='Charmander'  
+          source={Charmander}/>
         <Box 
           type='Water' 
           number='007'
+          name='Squirtle'
           source={Squirtle}/>
         <Box 
           number='025' 
           type='Eletric'
+          name='Pikachu' 
           source={Pikachu} />
         <Button>
           <Text>Carregar mais...</Text>

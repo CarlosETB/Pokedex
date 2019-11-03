@@ -6,8 +6,8 @@ import { pokeColor } from '../../../helpers/Colors'
 export const Container = styled.TouchableOpacity`
     margin: 5px;
     width: 150px;
-    padding: 12px 0;
-    height: 150px;
+    padding: 25px 0;
+    height: 200px;
     border-radius: 10px;
     justify-content: center;
     border: 3px solid ${props => props.color};
@@ -22,6 +22,12 @@ export const Text = styled.Text`
     font-size: 15px;
     padding: 0 15px;
     color: ${pokeColor.gray};
+`
+
+export const Title = styled.Text`
+    color: gray;
+    font-size: 18px;
+    padding: 0 15px;
 `
 
 export const Type = styled.Text`

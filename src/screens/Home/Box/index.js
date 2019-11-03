@@ -1,7 +1,7 @@
 import React from 'react';
 
 /* ------------- Styles ------------- */
-import { Container, Image, Text, Bottom, Type } from './styles'
+import { Container, Image, Title, Text, Bottom, Type } from './styles'
 
 /* ------------- Helpers ------------- */
 import { pokeColor } from '../../../helpers/Colors'
@@ -34,8 +34,9 @@ export default function Box ({ navigation, type, number, source, color }) {
     return (
         <>
             {number &&
-                <Container color='red'>
+                <Container color={color}>
                     <Text>Nº {number}</Text>
+                    <Title>Charmander</Title>
                     <Image 
                         source={source} 
                         resizeMode="contain"/>
