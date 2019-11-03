@@ -7,6 +7,8 @@ import { Container, Text, Button } from './styles'
 import { pokeColor } from '../../helpers/Colors'
 import { Icon } from '../../helpers/Icons'
 
+import { withNavigation } from 'react-navigation'
+
 const Header = ({ navigation }) => {
   return (
     <Container>

@@ -3,9 +3,10 @@ import styled from 'styled-components/native'
 /* ------------- Helpers ------------- */
 import { pokeColor } from '../../../helpers/Colors'
 
-export const Container = styled.View`
+export const Container = styled.TouchableOpacity`
     margin: 5px;
     width: 150px;
+    padding: 12px 0;
     height: 150px;
     border-radius: 10px;
     justify-content: center;
@@ -21,4 +22,20 @@ export const Text = styled.Text`
     font-size: 15px;
     padding: 0 15px;
     color: ${pokeColor.gray};
+`
+
+export const Type = styled.Text`
+    padding: 0 5px;
+    font-size: 15px;
+    margin: 0 5px;
+    border-radius: 5px;
+    color: ${pokeColor.white};
+    background-color: ${props => props.color};
+`
+
+export const Bottom = styled.View`
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
 `

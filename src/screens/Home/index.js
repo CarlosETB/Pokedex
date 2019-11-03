@@ -19,22 +19,22 @@ export default function HomeScreen ({ navigation }) {
     <Container>
       <Search />
       <ScrollView showsVerticalScrollIndicator={false} >
-        <Box
+        <Box 
+          type='Grass'
           number='001' 
-          source={Bulbasaur} 
-          color={pokeColor.grass}/> 
+          source={Bulbasaur}/> 
         <Box 
+          type='Fire'
           number='004'
-          source={Charmander} 
-          color={pokeColor.fire} />
+          source={Charmander}  />
         <Box 
+          type='Water' 
           number='007'
-          source={Squirtle}
-          color={pokeColor.water} />
+          source={Squirtle}/>
         <Box 
-          number='025'
-          source={Pikachu} 
-          color={pokeColor.eletric} />
+          number='025' 
+          type='Eletric'
+          source={Pikachu} />
         <Button>
           <Text>Carregar mais...</Text>
         </Button>
