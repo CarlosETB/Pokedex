@@ -22,13 +22,6 @@ export const ScrollView = styled.ScrollView.attrs(() => ({
     padding: 0px 10px;
 `
 
-export const View = styled.View`
-    margin: 5px;
-    width: 150px;
-    height: 150px;
-    background-color: blue;
-`
-
 export const Button = styled.TouchableOpacity`
     width: 80%;
     height: 50px;
