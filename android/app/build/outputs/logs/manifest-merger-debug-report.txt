@@ -6,6 +6,7 @@ INJECTED from /home/carlos/Desktop/Projetos/Pokedex/android/app/src/main/Android
 INJECTED from /home/carlos/Desktop/Projetos/Pokedex/android/app/src/main/AndroidManifest.xml:1:1-26:12
 MERGED from /home/carlos/Desktop/Projetos/Pokedex/android/app/src/main/AndroidManifest.xml:1:1-26:12
 MERGED from [:react-native-gesture-handler] /home/carlos/Desktop/Projetos/Pokedex/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-reanimated] /home/carlos/Desktop/Projetos/Pokedex/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-vector-icons] /home/carlos/Desktop/Projetos/Pokedex/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native:0.61.3] /home/carlos/.gradle/caches/transforms-2/files-2.1/fc618353ae01a511ae10d9a5fc2e37c2/AndroidManifest.xml:2:1-13:12
 MERGED from [org.webkit:android-jsc:r245459] /home/carlos/.gradle/caches/transforms-2/files-2.1/4bd989ed76b3bdfdceffbd1eacd03e6d/AndroidManifest.xml:2:1-11:12
@@ -18,6 +19,7 @@ MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /home/carlos/.gradle/cache
 MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /home/carlos/.gradle/caches/transforms-2/files-2.1/a80c6e13cb585a23c9be8a1865133136/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /home/carlos/.gradle/caches/transforms-2/files-2.1/c33fbea72907f97b584e7eb668f26132/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.soloader:soloader:0.6.0] /home/carlos/.gradle/caches/transforms-2/files-2.1/c05e33a9243fca703f09ef182ab7ef91/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.transition:transition:1.1.0] /home/carlos/.gradle/caches/transforms-2/files-2.1/e86720c4ab4853226d47f55aa002e288/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment:1.0.0] /home/carlos/.gradle/caches/transforms-2/files-2.1/5388ffa76b12dc24e231eb5f3a85ace8/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/carlos/.gradle/caches/transforms-2/files-2.1/6262a533e9ce7bd118279b635e381399/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/carlos/.gradle/caches/transforms-2/files-2.1/aa34cccdcc0d04bcdaf0d964eb7a10f0/AndroidManifest.xml:17:1-22:12
@@ -136,6 +138,8 @@ INJECTED from /home/carlos/Desktop/Projetos/Pokedex/android/app/src/main/Android
 INJECTED from /home/carlos/Desktop/Projetos/Pokedex/android/app/src/main/AndroidManifest.xml
 MERGED from [:react-native-gesture-handler] /home/carlos/Desktop/Projetos/Pokedex/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-gesture-handler] /home/carlos/Desktop/Projetos/Pokedex/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /home/carlos/Desktop/Projetos/Pokedex/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /home/carlos/Desktop/Projetos/Pokedex/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-vector-icons] /home/carlos/Desktop/Projetos/Pokedex/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-vector-icons] /home/carlos/Desktop/Projetos/Pokedex/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.61.3] /home/carlos/.gradle/caches/transforms-2/files-2.1/fc618353ae01a511ae10d9a5fc2e37c2/AndroidManifest.xml:7:5-9:41
@@ -160,6 +164,8 @@ MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /home/carlos/.gradle/
 MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /home/carlos/.gradle/caches/transforms-2/files-2.1/c33fbea72907f97b584e7eb668f26132/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.soloader:soloader:0.6.0] /home/carlos/.gradle/caches/transforms-2/files-2.1/c05e33a9243fca703f09ef182ab7ef91/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.soloader:soloader:0.6.0] /home/carlos/.gradle/caches/transforms-2/files-2.1/c05e33a9243fca703f09ef182ab7ef91/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.transition:transition:1.1.0] /home/carlos/.gradle/caches/transforms-2/files-2.1/e86720c4ab4853226d47f55aa002e288/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.1.0] /home/carlos/.gradle/caches/transforms-2/files-2.1/e86720c4ab4853226d47f55aa002e288/AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.0.0] /home/carlos/.gradle/caches/transforms-2/files-2.1/5388ffa76b12dc24e231eb5f3a85ace8/AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.0.0] /home/carlos/.gradle/caches/transforms-2/files-2.1/5388ffa76b12dc24e231eb5f3a85ace8/AndroidManifest.xml:20:5-44
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/carlos/.gradle/caches/transforms-2/files-2.1/6262a533e9ce7bd118279b635e381399/AndroidManifest.xml:20:5-44

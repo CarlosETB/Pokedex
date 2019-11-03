@@ -7,10 +7,10 @@ import { Container, Text, Button } from './styles'
 import { pokeColor } from '../../helpers/Colors'
 import { Icon } from '../../helpers/Icons'
 
-export default function Header ({ navigation }) {
+const Header = ({ navigation }) => {
   return (
     <Container>
-      <Button>
+      <Button onPress={navigation.toggleDrawer}>
         <Icon name='menu' />
       </Button>
       
@@ -22,3 +22,5 @@ export default function Header ({ navigation }) {
     </Container>
   )
 }
+
+export default withNavigation(Header)
