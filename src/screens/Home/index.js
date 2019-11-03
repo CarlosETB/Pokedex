@@ -35,8 +35,6 @@ export default function HomeScreen ({ navigation }) {
           number='025'
           source={Pikachu} 
           color={pokeColor.eletric} />
-          
-        
         <Button>
           <Text>Carregar mais...</Text>
         </Button>

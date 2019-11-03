@@ -17,7 +17,7 @@ export default function Header ({ navigation }) {
       <Text>Pokedex</Text>
 
       <Button>
-        <Icon name='person' />
+        <Icon name='settings' />
       </Button>
     </Container>
   )

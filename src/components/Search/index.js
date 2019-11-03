@@ -11,7 +11,7 @@ export default function Search () {
   return (
     <Container>
         <Input placeholder='Pesquisar'/>
-        <Icon name='search' color='gray'/>
+        <Icon name='search' size={30} color='gray'/>
     </Container>
   )
 }

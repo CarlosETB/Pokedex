@@ -2,7 +2,7 @@ import React from 'react'
 import { Platform } from 'react-native'
 
 /* ------------- Helpers ------------- */
-import {pokeColor} from '../../helpers/Colors'
+import { pokeColor } from '../../helpers/Colors'
 
 /* ------------- Icons ------------- */
 import Ionicons from 'react-native-vector-icons/Ionicons'
