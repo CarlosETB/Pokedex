@@ -1,48 +1,40 @@
-import React from 'react';
+import React from "react";
+import { useQuery } from "@apollo/react-hooks";
+import { GET_POKEMONS } from "../../graphql/queries";
 
 /* ------------- Styles ------------- */
-import { Container, ScrollView, Button, Text } from './styles'
+import { Container, ScrollView, Button, Text } from "./styles";
 
 /* ------------- Private Components ------------- */
-import Box from './Box'
+import Box from "./Box";
 
 /* ------------- Components ------------- */
-import Search from '../../components/Search'
+import Search from "../../components/Search";
 
 /* ------------- Helpers ------------- */
-import { Bulbasaur,  Charmander, Squirtle, Pikachu } from '../../helpers/Images'
-import { pokeColor } from '../../helpers/Colors'
+//import { Bulbasaur, Charmander, Squirtle, Pikachu } from "../../helpers/Images";
 
-export default function HomeScreen ({ navigation }) {
-  
+export default function HomeScreen({ navigation }) {
+  const { loading, error, data } = useQuery(GET_POKEMONS);
   return (
     <Container>
       <Search />
-      <ScrollView showsVerticalScrollIndicator={false} >
-        <Box 
-          type='Grass'
-          number='001' 
-          name='Bulbasaur'
-          source={Bulbasaur} /> 
-        <Box 
-          type='Fire'
-          number='004'
-          name='Charmander'  
-          source={Charmander}/>
-        <Box 
-          type='Water' 
-          number='007'
-          name='Squirtle'
-          source={Squirtle}/>
-        <Box 
-          number='025' 
-          type='Eletric'
-          name='Pikachu' 
-          source={Pikachu} />
+      <ScrollView showsVerticalScrollIndicator={false}>
+        {loading && <Text>Carregando...</Text>}
+        {error && <Text>Error</Text>}
+        {data &&
+          data.pokemons.map(poke => (
+            <Box
+              type={poke.types[0]}
+              number={poke.number}
+              source={{ uri: poke.image }}
+              name={poke.name}
+            />
+          ))}
         <Button>
           <Text>Carregar mais...</Text>
         </Button>
       </ScrollView>
     </Container>
-  )
+  );
 }
