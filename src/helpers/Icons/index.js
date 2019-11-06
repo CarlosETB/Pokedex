@@ -1,4 +1,6 @@
 import React from 'react'
+
+/* ------------- Native Components ------------- */
 import { Platform } from 'react-native'
 
 /* ------------- Helpers ------------- */

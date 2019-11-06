@@ -11,7 +11,7 @@ export default function Drawer ({ navigation }) {
     return ( 
         <Container>
             <Close onPress={navigation.toggleDrawer} >
-                <Icon name='close'></Icon>
+                <Icon name='close' />
             </Close>
         </Container>
     )
