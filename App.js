@@ -1,38 +1,33 @@
-import React from "react";
-import { SafeAreaView, StyleSheet, StatusBar } from "react-native";
-import { ApolloClient } from "apollo-client";
-import { ApolloProvider } from "@apollo/react-hooks";
-import { InMemoryCache } from "apollo-cache-inmemory";
-import { HttpLink } from "apollo-link-http";
+import React from 'react'
 
-import AppNavigator from "./src/navigators/AppNavigator";
+/* ------------- Native Components ------------- */
+import { SafeAreaView, StyleSheet, StatusBar } from 'react-native'
 
-const cache = new InMemoryCache();
-const link = new HttpLink({
-  uri: "https://graphql-pokemon.now.sh/"
-})
+/* ------------- Apollo ------------- */
+import { InMemoryCache } from 'apollo-cache-inmemory'
+import { ApolloProvider } from '@apollo/react-hooks'
+import { ApolloClient } from 'apollo-client'
+import { HttpLink } from 'apollo-link-http'
 
-const client = new ApolloClient({
-  cache,
-  link
-})
+/* ------------- Navigation ------------- */
+import AppNavigator from './src/navigators/AppNavigator'
+
+const cache = new InMemoryCache()
+const link = new HttpLink({ uri: 'https://graphql-pokemon.now.sh/' })
+const client = new ApolloClient({ cache, link })
 
 const App = () => {
   return (
     <>
-      <StatusBar
-        barStyle="light-content"
-        translucent
-        backgroundColor="transparent"
-      />
+      <StatusBar barStyle='light-content' translucent backgroundColor='transparent'/>
       <SafeAreaView style={styles.SafeAreaView}>
         <ApolloProvider client={client}>
           <AppNavigator />
         </ApolloProvider>
       </SafeAreaView>
     </>
-  );
-};
+  )
+}
 
 const styles = StyleSheet.create({
   SafeAreaView: {
@@ -40,4 +35,4 @@ const styles = StyleSheet.create({
   }
 })
 
-export default App;
+export default App

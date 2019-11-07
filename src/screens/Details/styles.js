@@ -5,7 +5,7 @@ import { pokeColor } from '../../helpers/Colors'
 
 export const Container = styled.View`
     flex: 1; 
-    background-color: ${pokeColor.fire};
+    background-color: ${props => props.color};
 `
 
 export const Close = styled.TouchableOpacity`
@@ -33,13 +33,13 @@ export const ViewImage = styled.View`
     border-radius: 10px;
     margin-bottom:  -75px;
     justify-content: center;
-    border: 2px solid ${pokeColor.fire};
     background-color: ${pokeColor.white};
+    border: 2px solid ${props => props.color};
 `
 
 export const Image = styled.Image`
-    flex: 1;
-    align-self: center;
+    width: 90%;
+    height: 90%;
 `
 
 export const Button = styled.TouchableOpacity`
@@ -49,11 +49,12 @@ export const Button = styled.TouchableOpacity`
 
 export const Bottom = styled.View`
     width: 100%; 
-    height: 100;
+    height: 100px;
     padding: 10px;
     align-items: center;
     flex-direction: row;
-    align-self: flex-end; 
+    align-self: flex-end;
+    justify-content: space-evenly; 
 `
 
 export const Tab = styled.View`
@@ -72,7 +73,7 @@ export const Title = styled.View`
     justify-content: space-between;
 `
 
-export const Name = styled.Text`
+export const Namee = styled.Text`
     color: white;
     font-size: 25px;
     font-weight: 600;

@@ -23,3 +23,12 @@ export const GET_POKEMON = gql`
     }
   }
 `
+export const GET_EVOLUTION = gql`
+  query GET_EVOLUTION($pokemon_name: String!){
+    pokemon(name: $pokemon_name) {
+      evolutions {
+        image
+      }
+    }
+  }
+`

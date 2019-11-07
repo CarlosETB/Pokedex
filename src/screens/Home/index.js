@@ -1,26 +1,26 @@
-import React, { useState, useEffect } from "react";
-import { useQuery } from "@apollo/react-hooks";
-import { GET_POKEMONS, GET_POKEMON } from "../../graphql/queries";
+import React, { useState, useEffect } from "react"
+import { useQuery } from "@apollo/react-hooks"
+import { GET_POKEMONS, GET_POKEMON } from "../../graphql/queries"
 
 /* ------------- Styles ------------- */
-import { Container, ScrollView, Button, Text } from "./styles";
+import { Container, ScrollView, Button, Text } from "./styles"
 
 /* ------------- Private Components ------------- */
-import Box from "./Box";
+import Box from "./Box"
 
 /* ------------- Components ------------- */
-import Search from "../../components/Search";
+import Search from "../../components/Search"
 
 export default function HomeScreen({ navigation }) {
-  const [numberPokemons, setNumberPokemons] = useState(4);
-  const [pokemons, setPokemons] = useState([]);
+  const [numberPokemons, setNumberPokemons] = useState(100)
+  const [pokemons, setPokemons] = useState([])
   const [search, setSearch] = useState('')
   const [searchErrors, setSearchErrors] = useState(false)
   const { loading, error, data } = useQuery(GET_POKEMONS, {
     variables: {
       pokemons_number: numberPokemons
     }
-  });
+  })
 
   const pokeSearch = useQuery(GET_POKEMON, {
     variables: {
@@ -47,7 +47,13 @@ export default function HomeScreen({ navigation }) {
         {searchErrors && <Text>Sua pesquisa esta muito erradinha</Text>}
         {pokemons && pokemons.map(poke => (
           <Box
-            onPress={() => navigation.navigate('About')}
+            onPress={() => navigation.navigate('About', {
+              id: poke.id,
+              number: poke.number,
+              name: poke.name,
+              photo: poke.image,
+              type: poke.types[0]
+            })}
             key={poke.id}
             type={poke.types[0]}
             number={poke.number}
@@ -60,5 +66,5 @@ export default function HomeScreen({ navigation }) {
         </Button>
       </ScrollView>
     </Container>
-  );
+  )
 }
