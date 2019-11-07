@@ -47,7 +47,7 @@ export default function HomeScreen({ navigation }) {
         {searchErrors && <Text>Sua pesquisa esta muito erradinha</Text>}
         {pokemons && pokemons.map(poke => (
           <Box
-            onPress={() => navigation.navigate('Details')}
+            onPress={() => navigation.navigate('About')}
             key={poke.id}
             type={poke.types[0]}
             number={poke.number}

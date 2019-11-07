@@ -8,5 +8,4 @@ export const Background = styled.ScrollView.attrs(() => ({
 }))`
   width: 100%;
   height: 100%;
-  background-color: blue;
 `

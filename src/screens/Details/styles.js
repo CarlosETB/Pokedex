@@ -55,3 +55,10 @@ export const Bottom = styled.View`
     flex-direction: row;
     align-self: flex-end; 
 `
+
+export const Tab = styled.View`
+    flex: 1; 
+    width: 90%;
+    margin-top: 80;
+    align-self: center;
+`

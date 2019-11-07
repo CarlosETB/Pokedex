@@ -18,8 +18,8 @@ export const NavigatorItem = styled.TouchableOpacity`
 `
 
 export const NavigatorText = styled.Text`
-  font-size: 18;
-  margin-bottom: 5;
+  font-size: 16;
+  margin-bottom: 10;
   text-align: center;
-  color: ${pokeColor.black};
+  color: ${props => props.active ? pokeColor.primary : pokeColor.black}; 
 `

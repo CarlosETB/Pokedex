@@ -5,11 +5,14 @@ import { Background } from './styles.js'
 
 /* ------------- Components ------------- */
 import TabNavigator from '../../../components/TabNavigator'
+import DetailsScreen from '../../Details/index'
 
 export default function Stats ({ navigation }) {
   return (
-    <Background>
-      <TabNavigator navigation={navigation} active='Stats' />
-    </Background>
+    <DetailsScreen navigation={navigation}>
+      <Background>
+        <TabNavigator navigation={navigation} active='Stats' />
+      </Background>
+    </DetailsScreen>
   )
 }

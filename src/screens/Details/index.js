@@ -4,21 +4,18 @@ import React from 'react';
 import { View } from 'react-native'
 
 /* ------------- Styles ------------- */
-import { Container, Top, Body, Bottom, Button, Close, Image, ViewImage } from './styles'
+import { Container, Top, Body, Bottom, Button, Close, Image, ViewImage, Tab } from './styles'
 
 /* ------------- Helpers ------------- */
 import { Charmander } from '../../helpers/Images'
 import { pokeColor } from '../../helpers/Colors'
 import { Icon } from '../../helpers/Icons'
 
-import TabNavigator from '../../components/TabNavigator'
-import About from './About'
-
-export default function DetailsScreen ({ navigation, type }) {
+export default function DetailsScreen ({ navigation, type, children }) {
     return (
       <Container>
         <Top>
-          <Close onPress={() => navigation.goBack()}> 
+          <Close onPress={() => navigation.navigate('Home')}> 
             <Icon name='arrow-back' />
           </Close>
         </Top>
@@ -28,9 +25,9 @@ export default function DetailsScreen ({ navigation, type }) {
             resizeMode="contain"/>
         </ViewImage>
         <Body>
-          <View style={{flex: 1, width: '100%', marginTop: 80 }}>
-            <About navigation={navigation} />
-          </View>
+          <Tab>
+            {children}
+          </Tab>
           <Bottom>
             <Button>
               <Image source={Charmander} resizeMode="contain" />

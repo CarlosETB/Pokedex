@@ -15,7 +15,7 @@ export default function TabNavigator ({ navigation, active }) {
       {pages.map(page => {
         return page.nav === active ? (
           <NavigatorItem key={page.id} active onPress={() => navigation.navigate(page.nav)}>
-            <NavigatorText>{page.title}</NavigatorText>
+            <NavigatorText active>{page.title}</NavigatorText>
           </NavigatorItem>
         ) : (
           <NavigatorItem key={page.id} onPress={() => navigation.navigate(page.nav)}>
