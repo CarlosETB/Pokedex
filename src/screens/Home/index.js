@@ -12,7 +12,7 @@ import Box from "./Box"
 import Search from "../../components/Search"
 
 export default function HomeScreen({ navigation }) {
-  const [numberPokemons, setNumberPokemons] = useState(100)
+  const [numberPokemons, setNumberPokemons] = useState(4)
   const [pokemons, setPokemons] = useState([])
   const [search, setSearch] = useState('')
   const [searchErrors, setSearchErrors] = useState(false)

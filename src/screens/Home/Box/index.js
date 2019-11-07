@@ -63,7 +63,7 @@ export default function Box({ navigation, onPress, type, number, source, color, 
       color = pokeColor.dragon;
       break;
     default:
-      console.log("Invalid Type");
+      color = pokeColor.white;
   }
 
   return (
