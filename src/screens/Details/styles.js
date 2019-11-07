@@ -17,6 +17,12 @@ export const Top = styled.View`
     margin: 30px 0 0 20px;
 `
 
+export const Body = styled.View`
+    flex: 1;
+    background-color: white; 
+    justify-content: flex-end;
+`
+
 export const ViewImage = styled.View`
     z-index: 1;
     width: 150px;

@@ -6,7 +6,7 @@ import { Container, Image, Title, Text, Bottom, Type } from "./styles";
 /* ------------- Helpers ------------- */
 import { pokeColor } from "../../../helpers/Colors";
 
-export default function Box({ navigation, type, number, source, color, name }) {
+export default function Box({ navigation, onPress, type, number, source, color, name }) {
   switch (type) {
     case "Grass":
       color = pokeColor.grass;
@@ -69,7 +69,7 @@ export default function Box({ navigation, type, number, source, color, name }) {
   return (
     <>
       {number && (
-        <Container color={color}>
+        <Container onPress={onPress} color={color}>
           <Text>Nº {number}</Text>
           <Title>{name}</Title>
           <Image source={source} resizeMode="contain" />
