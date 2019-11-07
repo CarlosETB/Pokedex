@@ -17,8 +17,8 @@ export default function Box({ navigation, onPress, type, number, source, color, 
     case "Water":
       color = pokeColor.water;
       break;
-    case "Eletric":
-      color = pokeColor.eletric;
+    case "Electric":
+      color = pokeColor.electric;
       break;
     case "Poison":
       color = pokeColor.poison;

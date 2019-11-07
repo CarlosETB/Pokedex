@@ -10,12 +10,12 @@ import AppNavigator from "./src/navigators/AppNavigator";
 const cache = new InMemoryCache();
 const link = new HttpLink({
   uri: "https://graphql-pokemon.now.sh/"
-});
+})
 
 const client = new ApolloClient({
   cache,
   link
-});
+})
 
 const App = () => {
   return (
@@ -38,6 +38,6 @@ const styles = StyleSheet.create({
   SafeAreaView: {
     flex: 1
   }
-});
+})
 
 export default App;

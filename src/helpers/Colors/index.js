@@ -9,7 +9,7 @@ export const pokeColor = {
     grass: '#9bcc50',
     fire: '#fd7d24',
     water: '#4592c4',
-    eletric: '#eed535',
+    electric: '#eed535',
     poison : '#b97fc9',
     bug: '#729f3f',
     normal: '#a4acaf',

@@ -62,3 +62,23 @@ export const Tab = styled.View`
     margin-top: 80;
     align-self: center;
 `
+
+export const Title = styled.View`
+    width: 80%;
+    margin: 10px;
+    align-self: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+`
+
+export const Name = styled.Text`
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+`
+
+export const Number = styled.Text`
+    color: white;
+    font-size: 20px;
+`

@@ -1,15 +1,21 @@
-import React from 'react';
-
-/* ------------- Native Components ------------- */
-import { View } from 'react-native'
-
-/* ------------- Styles ------------- */
-import { Container, Top, Body, Bottom, Button, Close, Image, ViewImage, Tab } from './styles'
+import React from 'react'
 
 /* ------------- Helpers ------------- */
 import { Charmander } from '../../helpers/Images'
 import { pokeColor } from '../../helpers/Colors'
 import { Icon } from '../../helpers/Icons'
+
+/* ------------- Styles ------------- */
+import { 
+  Container, 
+  Top, Body, 
+  Bottom, 
+  Button, 
+  Close, 
+  Image, 
+  ViewImage, 
+  Tab, Title, 
+  Name, Number } from './styles'
 
 export default function DetailsScreen ({ navigation, type, children }) {
     return (
@@ -19,6 +25,12 @@ export default function DetailsScreen ({ navigation, type, children }) {
             <Icon name='arrow-back' />
           </Close>
         </Top>
+
+        <Title>
+          <Name>Charmander</Name>
+          <Number># 001</Number>
+        </Title>
+
         <ViewImage>
           <Image 
             source={Charmander} 
