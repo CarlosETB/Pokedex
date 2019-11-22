@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/carlos/Desktop/Projetos/Pokedex/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml",
+            "outputFile": "/home/fabio/Desktop/projects/react-native/Pokedex/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml",
             "map": [
                 {
-                    "source": "/home/carlos/.gradle/caches/transforms-2/files-2.1/37f19ddb2c2b3650bd4f7e909bccb0f0/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "source": "/home/fabio/.gradle/caches/transforms-2/files-2.1/3d4618b4d43d3e7cb17f296ad494e731/res/values-h720dp-v13/values-h720dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

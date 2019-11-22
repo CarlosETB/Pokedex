@@ -1,4 +1,4 @@
-#Sun Nov 03 12:09:25 BRST 2019
-base.0=/home/carlos/Desktop/Projetos/Pokedex/android/app/build/intermediates/transforms/dexMerger/debug/0
+#Fri Nov 22 11:47:27 BRST 2019
+base.0=/home/fabio/Desktop/projects/react-native/Pokedex/android/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex
